@@ -1,0 +1,14 @@
+# Artefactos y caches locales (el modelo se entrena dentro del build)
+artifacts/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.git/
+.github/
+tests/
+*.tar
+README.md
+.gitignore
+.dockerignore

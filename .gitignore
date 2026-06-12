@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Artefactos del modelo (se regeneran con train.py / en el build)
+artifacts/
+
+# Imágenes exportadas
+*.tar
+
+# Secretos / entorno
+.env
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
